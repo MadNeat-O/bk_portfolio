@@ -1,8 +1,13 @@
-/* 
+/*
 
 1. Add your custom Css styles below
-2. Place the this code in your template: 
+2. Place the this code in your template:
 
  <link href="css/custom.css" rel="stylesheet">
 
 */
+
+mark {
+  color: white;
+  background-color: rgba(0,0,0,0.4);
+}
