@@ -2,13 +2,23 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84658604-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-84658604-3');
+    </script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />    <meta name="author" content="INSPIRO" />
 	<meta name="description" content="Themeforest Template Polo, html template">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Document title -->
-    <title>POLO | The Multi-Purpose HTML5 Template</title>
+    <title>Video Portfolio</title>
     <!-- Stylesheets & Fonts -->
     <link href="css/plugins.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -36,8 +46,9 @@
                         <div class="container">
                             <nav>
                                 <ul>
-                                    <li><a href="code.html">Code</a></li>
+                                    <li><a href="index.html">About</a></li>
                                     <li><a href="video.html">Video</a></li>
+                                    <li><a href="code.html">Code</a></li>
                                     <li><a href="art.html">Art</a></li>
                                 </ul>
                             </nav>
@@ -52,30 +63,25 @@
         <!-- Inspiro Slider -->
         <div id="slider" class="inspiro-slider slider-fullscreen dots-creative" data-height-xs="360">
 
-            <!-- Slide 1 -->
-            <div class="slide vimeo-background" data-vimeo-url="https://vimeo.com/273927706/93e7ec5138" data-vimeo-mute="true">
-                <div class="bg-overlay" data-style="10"></div>
-                <div class="container">
-                    <div class="slide-captions text-center text-light">
-                        <!-- Captions -->
-                        <span class="strong" data-caption-animation="zoom-out"><a href="#" class="business"><span class="business">Business</span></a>
-                        </span>
-                        <h1>Vimeo Background</h1>
+            <!-- SECTION IMAGE FULLSCREEN -->
+            <section class="parallax fullscreen" style="background-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 90%), url('homepages/one-page-v3/images/1.jpg');">
 
-                        <button type="button" class="btn">Explore</button>
-                        <button type="button" class="btn btn-light">Purchase</button>
-                        <!-- end: Captions -->
+                <div class="container container-fullscreen text-center">
+                    <div class="text-middle">
+                        <h1 class="text-uppercase text-lg text-light">End-to-end Video Production</h1>
+                        <p class="lead text-light">As a Producer, Videographer, and Editor, I can scale productions of any size, from operating solo to managing a crew of 30+</p>
+                        <!-- <a class="btn btn-light btn-outline" href="https://themeforest.net/item/polo-responsive-multipurpose-html5-template/13708923">Contact Me</a> -->
                     </div>
                 </div>
-            </div>
-            <!-- end: Slide 1 -->
+            </section>
+            <!-- end: SECTION IMAGE FULLSCREEN -->
 
 
         </div>
         <!--end: Inspiro Slider -->
 
         <!-- Modal Form -->
-        <div class="modal fade" id="modal-2" tabindex="-1" role="modal" aria-labelledby="modal-label-2" aria-hidden="true">
+        <!-- <div class="modal fade" id="modal-2" tabindex="-1" role="modal" aria-labelledby="modal-label-2" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -107,7 +113,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- end: Modal Form -->
 
         <!-- Portfolio -->
@@ -118,11 +124,12 @@
                     <nav class="grid-filter gf-outline gf-light" data-layout="#portfolio">
                         <ul>
                             <li class="active"><a href="#" data-category="*">Show All</a></li>
-                            <li><a href="#" data-category=".ct-branding">Branding</a></li>
-                            <li><a href="#" data-category=".ct-photography">Photography</a></li>
-                            <li><a href="#" data-category=".ct-marketing">Marketing</a></li>
-                            <li><a href="#" data-category=".ct-media">Media</a></li>
-                            <li><a href="#" data-category=".ct-webdesign">Web design</a></li>
+                            <li><a href="#" data-category=".ct-non">Non-profit</a></li>
+                            <li><a href="#" data-category=".ct-med">Medical</a></li>
+                            <li><a href="#" data-category=".ct-rea">Real Estate</a></li>
+                            <li><a href="#" data-category=".ct-cul">Culinary</a></li>
+                            <li><a href="#" data-category=".ct-mus">Music Video</a></li>
+                            <li><a href="#" data-category=".ct-eve">Event</a></li>
                         </ul>
                         <div class="grid-active-title">Show All</div>
                     </nav>
@@ -133,99 +140,70 @@
 
 
                         <!-- portfolio item -->
-                        <div class="portfolio-item large-width img-zoom ct-photography ct-media ct-branding ct-marketing ct-webdesign">
+                        <div class="portfolio-item large-width img-zoom">
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-image">
                                     <a href="#"><img src="./images/portfolio/thumbnails/Reel18_1280x720.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Paper Pouch!" data-lightbox="iframe" href="https://vimeo.com/267458331"><i class="fa fa-play"></i></a>
-                                    <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a>
+                                    <a title="Demo Reel" data-lightbox="iframe" href="https://vimeo.com/267458331"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
                                 </div>
                             </div>
                         </div>
                         <!-- end: portfolio item -->
 
                         <!-- portfolio item -->
-                        <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-marketing ct-webdesign">
+                        <div class="portfolio-item img-zoom ct-edu ct-non ct-med">
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-image">
-                                    <a href="#"><img src="homepages/portfolio-v8/images/portfolio/5.jpg" alt=""></a>
+                                    <a href="#"><img src="./images/portfolio/thumbnails/SexualitySCI.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Paper Pouch!" data-lightbox="iframe" href="https://www.youtube.com/watch?v=k6Kly58LYzY"><i class="fa fa-play"></i></a>
-                                    <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a>
+                                    <a title="Mount Sinai SexualitySci.org" data-lightbox="iframe" href="https://vimeo.com/262124868"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
                                 </div>
                             </div>
                         </div>
                         <!-- end: portfolio item -->
 
                         <!-- portfolio item -->
-                        <div class="portfolio-item ct-photography ct-media ct-branding ct-Media ct-webdesign">
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-slider">
-                                    <div class="carousel dots-inside-top arrows-only arrows-light dots-light" data-items="1" data-loop="true" data-autoplay="true" data-autoplay="1800">
-                                        <a href="#"><img src="homepages/portfolio-v8/images/portfolio/1-large.jpg" alt=""></a>
-                                        <a href="#"><img src="homepages/portfolio-v8/images/portfolio/2-large.jpg" alt=""></a>
-                                        <a href="#"><img src="homepages/portfolio-v8/images/portfolio/3-large.jpg" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end: portfolio item -->
-
-                        <!-- portfolio item -->
-                        <div class="portfolio-item large-width img-zoom ct-photography ct-media ct-branding ct-marketing ct-webdesign">
+                        <div class="portfolio-item img-zoom ct-doc">
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-image">
-                                    <a href="#"><img src="homepages/portfolio-v8/images/portfolio/5.jpg" alt=""></a>
+                                    <a href="#"><img src="./images/portfolio/thumbnails/Javits_NewStandard.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Paper Pouch!" data-lightbox="iframe" href="https://www.youtube.com/watch?v=k6Kly58LYzY"><i class="fa fa-play"></i></a>
-                                    <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a>
+                                    <a title="Javits Center: A New Standard" data-lightbox="iframe" href="https://vimeo.com/242961426"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
                                 </div>
                             </div>
                         </div>
                         <!-- end: portfolio item -->
 
                         <!-- portfolio item -->
-                        <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-marketing ct-webdesign">
+                        <div class="portfolio-item img-zoom ct-doc ct-med ct-edu">
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-image">
-                                    <a href="#"><img src="homepages/portfolio-v8/images/portfolio/5.jpg" alt=""></a>
+                                    <a href="#"><img src="./images/portfolio/thumbnails/Schulman.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Paper Pouch!" data-lightbox="iframe" href="https://www.youtube.com/watch?v=k6Kly58LYzY"><i class="fa fa-play"></i></a>
-                                    <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a>
+                                    <a title="Matthew Schulman, M.D." data-lightbox="iframe" href="https://vimeo.com/261919371"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
                                 </div>
                             </div>
                         </div>
                         <!-- end: portfolio item -->
 
                         <!-- portfolio item -->
-                        <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-marketing ct-webdesign">
+                        <div class="portfolio-item img-zoom ct-med">
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-image">
-                                    <a href="#"><img src="homepages/portfolio-v8/images/portfolio/5.jpg" alt=""></a>
+                                    <a href="#"><img src="./images/portfolio/thumbnails/Schweiger.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Paper Pouch!" data-lightbox="iframe" href="https://www.youtube.com/watch?v=k6Kly58LYzY"><i class="fa fa-play"></i></a>
-                                    <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end: portfolio item -->
-
-
-                        <!-- portfolio item -->
-                        <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-marketing ct-webdesign">
-                            <div class="portfolio-item-wrap">
-                                <div class="portfolio-image">
-                                    <a href="#"><img src="homepages/portfolio-v8/images/portfolio/5.jpg" alt=""></a>
-                                </div>
-                                <div class="portfolio-description">
-                                    <a title="Paper Pouch!" data-lightbox="iframe" href="https://www.youtube.com/watch?v=k6Kly58LYzY"><i class="fa fa-play"></i></a>
-                                    <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a>
+                                    <a title="Schweiger Dermatology" data-lightbox="iframe" href="https://player.vimeo.com/video/288240843"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -233,14 +211,14 @@
 
 
                         <!-- portfolio item -->
-                        <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-marketing ct-webdesign">
+                        <div class="portfolio-item img-zoom ct-med ct-doc">
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-image">
-                                    <a href="#"><img src="homepages/portfolio-v8/images/portfolio/5.jpg" alt=""></a>
+                                    <a href="#"><img src="./images/portfolio/thumbnails/DrLana.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Paper Pouch!" data-lightbox="iframe" href="https://www.youtube.com/watch?v=k6Kly58LYzY"><i class="fa fa-play"></i></a>
-                                    <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a>
+                                    <a title="Dr Lana" data-lightbox="iframe" href="https://player.vimeo.com/video/310213711"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
                                 </div>
                             </div>
                         </div>
@@ -248,32 +226,315 @@
 
 
                         <!-- portfolio item -->
-                        <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-marketing ct-webdesign">
+                        <div class="portfolio-item img-zoom ct-non ct-doc">
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-image">
-                                    <a href="#"><img src="homepages/portfolio-v8/images/portfolio/5.jpg" alt=""></a>
+                                    <a href="#"><img src="./images/portfolio/thumbnails/HOG.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Paper Pouch!" data-lightbox="iframe" href="https://www.youtube.com/watch?v=k6Kly58LYzY"><i class="fa fa-play"></i></a>
-                                    <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a>
+                                    <a title="Hearts of Gold" data-lightbox="iframe" href="https://player.vimeo.com/video/301049433"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
                                 </div>
                             </div>
                         </div>
                         <!-- end: portfolio item -->
 
                         <!-- portfolio item -->
-                        <div class="portfolio-item img-zoom ct-photography ct-media ct-branding ct-marketing ct-webdesign">
+                        <div class="portfolio-item img-zoom ct-non ct-doc ct-eve">
                             <div class="portfolio-item-wrap">
                                 <div class="portfolio-image">
-                                    <a href="#"><img src="homepages/portfolio-v8/images/portfolio/5.jpg" alt=""></a>
+                                    <a href="#"><img src="./images/portfolio/thumbnails/HOG-bts.jpg" alt=""></a>
                                 </div>
                                 <div class="portfolio-description">
-                                    <a title="Paper Pouch!" data-lightbox="iframe" href="https://www.youtube.com/watch?v=k6Kly58LYzY"><i class="fa fa-play"></i></a>
-                                    <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a>
+                                    <a title="Hearts of Gold Back to School Event" data-lightbox="iframe" href="https://player.vimeo.com/video/287090232"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
                                 </div>
                             </div>
                         </div>
                         <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-cul">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/CocoRumChai.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="Coco Rum Chai" data-lightbox="iframe" href="https://vimeo.com/207150185"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-non">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/SheIs.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="She Is Sport Challenge" data-lightbox="iframe" href="https://player.vimeo.com/video/306915874"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-cul">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/PretMac.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="Pret A Manger Mac and Cheese" data-lightbox="iframe" href="https://player.vimeo.com/video/220324033"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-cul">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/PretBurrito.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="Pret A Manger Burrito" data-lightbox="iframe" href="https://player.vimeo.com/video/220324248"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-doc ct-rea">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/Mahgoub2.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="Alex Mahgoub Real Estate Agent" data-lightbox="iframe" href="https://player.vimeo.com/video/268831483"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-doc">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/Bryant.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="Bryant University Online CFP Course" data-lightbox="iframe" href="https://player.vimeo.com/video/252420715"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-cul">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/icc.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="Coco Rum Chai" data-lightbox="iframe" href="https://player.vimeo.com/video/293620419"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-cul">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/BeMixed.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="Be Mixed Berry Margarita" data-lightbox="iframe" href="https://vimeo.com/207171333"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-doc ct-eve">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/Connect70.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="BNI Chapter 70" data-lightbox="iframe" href="https://vimeo.com/263575417"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-cul">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/CocktailCrate.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="Paper Pouch!" data-lightbox="iframe" href="https://vimeo.com/212958090"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-doc ct-edu ct-cul">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/Mofad.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="Museum of Food and Drink" data-lightbox="iframe" href="https://player.vimeo.com/video/234549715"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-eve ct-cul">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/BryantParkGrill.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="Bryant Park Grill Spring Party" data-lightbox="iframe" href="https://player.vimeo.com/video/335457605"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-cul">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/chopstix.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="Tistix" data-lightbox="iframe" href="https://player.vimeo.com/video/310444782"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-non ct-doc">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/NYCSpinal.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="NYC Spinal Brand Video" data-lightbox="iframe" href="https://vimeo.com/216524333"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-doc">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/Cobbler.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="Paper Pouch!" data-lightbox="iframe" href="https://player.vimeo.com/video/208718560"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-mus ct-non">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/4Wheel-welcome.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="4Wheel City: Welcome to Reality" data-lightbox="iframe" href="https://www.youtube.com/embed/6PFaFL4ILNk"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-mus ct-non">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/4Wheel-movement.png" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="4Wheel City: The Movement" data-lightbox="iframe" href="https://www.youtube.com/embed/U7Ld352p5Z0"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-doc">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/Julbert.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="The Linkedin Guy" data-lightbox="iframe" href="https://player.vimeo.com/video/333612049"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-doc ct-rea">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/KR.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="K&R Realty Management" data-lightbox="iframe" href="https://player.vimeo.com/video/222526062"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
+                        <!-- portfolio item -->
+                        <div class="portfolio-item img-zoom ct-doc">
+                            <div class="portfolio-item-wrap">
+                                <div class="portfolio-image">
+                                    <a href="#"><img src="./images/portfolio/thumbnails/Superior.jpg" alt=""></a>
+                                </div>
+                                <div class="portfolio-description">
+                                    <a title="Superior Resource Printing and Graphics" data-lightbox="iframe" href="https://player.vimeo.com/video/327169387"><i class="fa fa-play"></i></a>
+                                    <!-- <a href="portfolio-page-grid-gallery.html"><i class="fa fa-link"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: portfolio item -->
+
 
                     </div>
                     <!-- end: Portfolio -->
@@ -288,9 +549,12 @@
             <div class="row ">
                 <div class="col-lg-3">
                     <div class="heading-text heading-section m-b-20">
-                        <h2>Technical Skills</h2>
+                        <h2>Production Skills</h2>
+                    </div>
+                    <p>
+                      I am experienced in all aspects of production from ideation through delivery.
+                    </p>
 
-                    </div>These are some of the tools I am comfortable using.
                 </div>
                 <div class="col-lg-9">
                     <div>
@@ -298,7 +562,85 @@
                           <div class="row">
                               <div class="col-md-3">
                                   <div class="icon-preview">
-                                      <div class="icon-holder"><img src="./images/icons/premiere-cc.svg" alt=""> </div>
+                                      <div class="icon-holder"><i class="fas fa-pencil-alt"></i></i></div>
+                                      <div class="icon-class">Proposal Preparation</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="icon-preview">
+                                      <div class="icon-holder"><i class="fas fa-user-check"></i></div>
+                                      <div class="icon-class">Casting</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="icon-preview">
+                                      <div class="icon-holder"><i class="fas fa-search-location"></i></i></div>
+                                      <div class="icon-class">Location Scouting</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="icon-preview">
+                                      <div class="icon-holder"><i class="fas fa-receipt"></i></i></div>
+                                      <div class="icon-class">Budgeting</div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-3">
+                                  <div class="icon-preview">
+                                      <div class="icon-holder"><i class="fas fa-video"></i></div>
+                                      <div class="icon-class">Camera Operation</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="icon-preview">
+                                      <div class="icon-holder"><i class="fas fa-lightbulb"></i></div>
+                                      <div class="icon-class">Lighting</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="icon-preview">
+                                      <div class="icon-holder"><i class="fas fa-microphone-alt"></i></div>
+                                      <div class="icon-class">Audio Recording</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="icon-preview">
+                                      <div class="icon-holder"><i class="fas fa-clock"></i></div>
+                                      <div class="icon-class">Time Management</div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-3">
+                                  <div class="icon-preview">
+                                      <div class="icon-holder"><i class="fas fa-film"></i></div>
+                                      <div class="icon-class">Video Editing</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="icon-preview">
+                                      <div class="icon-holder"><i class="fas fa-text-height"></i></div>
+                                      <div class="icon-class">Motion Graphics</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="icon-preview">
+                                      <div class="icon-holder"><i class="fas fa-eye-dropper"></i></div>
+                                      <div class="icon-class">Color Correction</div>
+                                  </div>
+                              </div>
+                              <div class="col-md-3">
+                                  <div class="icon-preview">
+                                      <div class="icon-holder"><i class="fas fa-headphones-alt"></i></div>
+                                      <div class="icon-class">Sound Mixing</div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-3">
+                                  <div class="icon-preview">
+                                      <div id="logo-holder" class="icon-holder"><img src="./images/icons/premiere-cc.svg" alt=""> </div>
                                       <div class="icon-class">Adobe Premiere Pro CC</div>
                                   </div>
                               </div>
@@ -321,58 +663,6 @@
                                   </div>
                               </div>
                           </div>
-                          <div class="row">
-                              <div class="col-md-3">
-                                  <div class="icon-preview">
-                                      <div class="icon-holder"><img src="./images/icons/html-5.svg" alt=""> </div>
-                                      <div class="icon-class">HTML5</div>
-                                  </div>
-                              </div>
-                              <div class="col-md-3">
-                                  <div class="icon-preview">
-                                      <div class="icon-holder"><img src="./images/icons/css3.svg" alt=""> </div>
-                                      <div class="icon-class">CSS3</div>
-                                  </div>
-                              </div>
-                              <div class="col-md-3">
-                                  <div class="icon-preview">
-                                      <div class="icon-holder"><img src="./images/icons/javascript.svg" alt=""> </div>
-                                      <div class="icon-class">Javascript</div>
-                                  </div>
-                              </div>
-                              <div class="col-md-3">
-                                  <div class="icon-preview">
-                                      <div class="icon-holder"><img src="./images/icons/bootstrap-4.svg" alt=""> </div>
-                                      <div class="icon-class">Bootstrap</div>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="row">
-                              <div class="col-md-3">
-                                  <div class="icon-preview">
-                                      <div class="icon-holder"><img src="./images/icons/ruby.svg" alt=""> </div>
-                                      <div class="icon-class">Ruby</div>
-                                  </div>
-                              </div>
-                              <div class="col-md-3">
-                                  <div class="icon-preview">
-                                      <div class="icon-holder"><img src="./images/icons/rails.svg" alt=""> </div>
-                                      <div class="icon-class">Rails</div>
-                                  </div>
-                              </div>
-                              <div class="col-md-3">
-                                  <div class="icon-preview">
-                                      <div class="icon-holder"><img src="./images/icons/react.svg" alt=""> </div>
-                                      <div class="icon-class">React</div>
-                                  </div>
-                              </div>
-                              <div class="col-md-3">
-                                  <div class="icon-preview">
-                                      <div class="icon-holder"><img src="./images/icons/postgresql.svg" alt=""> </div>
-                                      <div class="icon-class">PostgreSQL</div>
-                                  </div>
-                              </div>
-                          </div>
                         </div>
                     </div>
                 </div>
@@ -381,121 +671,28 @@
         </section>
         <!-- end: Skills -->
 
-        <!-- Testimonials -->
-        <section class="background-black">
-            <div class="container">
-                <!-- Testimonials -->
-                <div class="carousel arrows-visibile testimonial testimonial-single" data-items="1" data-loop="true" data-autoplay="true" data-autoplay="3500" data-arrows="false">
-
-                    <!-- Testimonials item -->
-                    <div class="testimonial-item">
-                        <img src="images/team/6.jpg" alt="">
-                        <p>Polo is by far the most amazing template out there! I literally could not be happier that I chose to buy this template!</p>
-                        <span>Alan Monre</span>
-                        <span>CEO, Square Software</span>
-                    </div>
-                    <!-- end: Testimonials item-->
-
-                    <!-- Testimonials item -->
-                    <div class="testimonial-item">
-                        <img src="images/team/7.jpg" alt="">
-                        <p>Polo is by far the most amazing template out there! I literally could not be happier that I chose to buy this template!</p>
-                        <span>Alan Monre</span>
-                        <span>CEO, Square Software</span>
-                    </div>
-                    <!-- end: Testimonials item-->
-
-                    <!-- Testimonials item -->
-                    <div class="testimonial-item">
-                        <img src="images/team/8.jpg" alt="">
-                        <p>The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it.</p>
-                        <span>Alan Monre</span>
-                        <span>CEO, Square Software</span>
-                    </div>
-                    <!-- end: Testimonials item-->
-
-                </div>
-                <!-- end: Testimonials -->
-            </div>
-        </section>
-        <!-- end: Testimonials -->
-
-        <!-- Footer -->
-        <footer id="footer">
-            <div class="footer-content">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-5">
-                            <div class="widget">
-
-                                <div class="widget-title">Polo HTML5 Template</div>
-                                <p class="mb-5">Built with love in Fort Worth, Texas, USA<br>
-                                    All rights reserved. Copyright © 2019. INSPIRO.</p>
-                                <a href="https://themeforest.net/item/polo-responsive-multipurpose-html5-template/13708923" class="btn btn-inverted" target="_blank">Purchase Now</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="row">
-                                <div class="col-lg-3">
-                                    <div class="widget">
-                                        <div class="widget-title">Discover</div>
-                                        <ul class="list">
-                                            <li><a href="#">Features</a></li>
-                                            <li><a href="#">Layouts</a></li>
-                                            <li><a href="#">Corporate</a></li>
-                                            <li><a href="#">Updates</a></li>
-                                            <li><a href="#">Pricing</a></li>
-                                            <li><a href="#">Customers</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3">
-                                    <div class="widget">
-                                        <div class="widget-title">Features</div>
-                                        <ul class="list">
-                                            <li><a href="#">Layouts</a></li>
-                                            <li><a href="#">Headers</a></li>
-                                            <li><a href="#">Widgets</a></li>
-                                            <li><a href="#">Footers</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3">
-                                    <div class="widget">
-                                        <div class="widget-title">Pages</div>
-                                        <ul class="list">
-                                            <li><a href="#">Portfolio</a></li>
-                                            <li><a href="#">Blog</a></li>
-                                            <li><a href="#">Shop</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3">
-                                    <div class="widget">
-                                        <div class="widget-title">Support</div>
-                                        <ul class="list">
-                                            <li><a href="#">Help Desk</a></li>
-                                            <li><a href="#">Documentation</a></li>
-                                            <li><a href="#">Contact Us</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-            </div>
+        <!-- FOOTER -->
+        <footer class="inverted" id="footer">
             <div class="copyright-content">
                 <div class="container">
-                    <div class="copyright-text text-center">&copy; 2019 POLO - Responsive Multi-Purpose HTML5 Template. All Rights Reserved.<a href="//www.inspiro-media.com" target="_blank" rel="noopener"> INSPIRO</a> </div>
+                    <div class="row">
+                      <nav class="navbar navbar-light">
+                        <a class="navbar-brand" href="https://github.com/MadNeat-O" target="_blank">
+                          <i class="fab fa-github"></i>
+                        </a>
+                        <a class="navbar-brand" href="https://www.linkedin.com/in/brad-korman/" target="_blank">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a class="navbar-brand" href="https://www.facebook.com/bradley.korman.1" target="_blank">
+                          <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <div class="copyright-text text-center"> &copy; 2020 Brad Korman </div>
+                      </nav>
+                    </div>
                 </div>
             </div>
         </footer>
-        <!-- end: Footer -->
+        <!-- end: FOOTER -->
 
     </div>
     <!-- end: Body Inner -->
@@ -505,6 +702,9 @@
     <!--Plugins-->
     <script src="js/jquery.js"></script>
     <script src="js/plugins.js"></script>
+
+    <!--Vimeo_player-->
+    <script src="plugins/vimeo-player/jquery.mb.vimeo_player.min.js"></script>
 
     <!--Template functions-->
     <script src="js/functions.js"></script>
